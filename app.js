@@ -1,6 +1,8 @@
+//GraphQL
 const express = require('express')
 const { graphqlHTTP } = require('express-graphql')
 const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList, GraphQLNonNull } = require('graphql')
+
 const app = express()
 
 
