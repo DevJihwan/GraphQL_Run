@@ -4,12 +4,12 @@ const connection = mysql.createConnection({
     host : 'localhost',
     user : 'root',
     password : '1234', 
-    database : 'user_table' 
+    database : 'web3' 
 })
 
 connection.connect();
 
-connection.query('SELECT * from user', (error, rows, fiedls) => {
+connection.query('SELECT * from userinfo', (error, rows, fiedls) => {
     if(error) {
         console.log('select user table error');
     }else{
