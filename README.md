@@ -7,6 +7,10 @@
  * npm install mysql
  * npm install express-routes 
  * npm install axios
+ * npm install express-routes
+ * npm install cookie-parser
+ * npm install morgan
+ * npm install cors
 
 [참고영상]
 ========
